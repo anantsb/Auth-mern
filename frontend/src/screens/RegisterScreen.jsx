@@ -4,7 +4,7 @@ import FormContainer from "../components/FormContainer";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { useRegisterMutation } from "../slices/usersApiSlice";
-import { setCredentials } from "../slices/authSlice";
+import { setCredentials } from "../slices/authslice";
 import { toast } from "react-toastify";
 import Loader from "../components/Loader";
 

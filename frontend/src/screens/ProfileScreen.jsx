@@ -6,7 +6,7 @@ import FormContainer from "../components/FormContainer";
 import { toast } from "react-toastify";
 import Loader from "../components/Loader";
 import { useUpdateUserMutation } from "../slices/usersApiSlice";
-import { setCredentials } from "../slices/authSlice";
+import { setCredentials } from "../slices/authslice";
 
 const ProfileScreen = () => {
   const [email, setEmail] = useState("");
