@@ -1,4 +1,4 @@
-import { apiSlice } from "./apiSlice";
+import { apiSlice } from "./apislice";
 const USERS_URL = "/api/users";
 
 export const userApiSlice = apiSlice.injectEndpoints({
